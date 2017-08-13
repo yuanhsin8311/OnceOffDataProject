@@ -1,0 +1,44 @@
+﻿High Net Worth CRM for OnceOff -
+
+
+Current Stack: Python, Stanford’s Natural Language Parsing Library, Putting into Graph Database (Neo4J), good start on things right now. List of base urls that they start with to scrape high net worth profile data. Eventually want to train neural network to find new sources of data based off of these initial set of base urls’. Eventually a primary interface on website that interacts with Neo4J for sales people to interface. 
+
+
+Right now using relational database but will eventually use Neo4J. 
+Scraper collects all text, runs NLP, and then analyzes good information and stores information. 
+
+
+Good spider right now to build database. Identified data sources that is scraped. Collect all text on page. Lots of noisy data. To clean it out, using NLP library to extract information. 
+
+
+Collecting Images is one issue right now. Manual efforts right now to assign image to profile. 
+Wikipedia is one source that they scrape. 
+
+
+Goal: Highest quality as quick as possible. Don’t want to waste server space. 
+
+
+Scale: 50 websites to scrape at start and then grow from there (but eventually 1000 and not much more than that). 250,000 profiles targeted at start. 300,000 profiles/names now. 15 data points per person profile. 20 data points for companies. 10-20 data points for products. For now, this is just individuals in the high net worth arena. Eventually will have companies (within luxury industry and products associated). Vision is for indexing complete luxury industry companies and products. 
+
+
+Current area where help could be leveraged - Trying to think of way to create a neural network that reads/finds what is useful and useless in the data collection. Trying to figure out how to train models. Google TensorFlow potential. 
+
+
+Next Steps: Remote accounts for development can be added. Python Scraping Data & MySQL. Potential to put GitHub repo. Cindy & Shane will collaborate on shared development environment. 
+
+
+Timeline on deliverables: 
+
+
+Good Scraper to collect right data - within next month
+Natural Language Parsing part (linguistics piece)  - two months after that
+
+
+Potential around sourcing a Project Manager. 
+Potential around a Frontend Web Developer (Flask / Python Web Framework)
+
+
+Next Meeting: Demo the initial results and showcase developments. Every 2 weeks touch base. 17th of August 11AM PST. 
+
+
+Project Communications for now - Google Hangouts & Email / Conference Calls.
